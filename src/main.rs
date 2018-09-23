@@ -59,7 +59,7 @@ fn main() {
                     let path = create_library_path("noop");
                     let os_lib = libloading::os::unix::Library::open(
                         Some(path),
-                        libc::RTLD_NODELETE | libc::RTLD_NOW,
+                        /* libc::RTLD_NODELETE | */ libc::RTLD_NOW,
                     ).unwrap();
                     let library = libloading::Library::from(os_lib);
                     unsafe {
