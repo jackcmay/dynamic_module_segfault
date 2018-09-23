@@ -1,0 +1,14 @@
+[package]
+name = "noop"
+version = "0.1.0"
+authors = [
+    "Jack May <jack@solana.com>",
+]
+
+[dependencies]
+libloading = "0.5.0"
+
+[lib]
+name = "noop"
+crate-type = ["dylib"]
+
