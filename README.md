@@ -19,3 +19,18 @@ This project contains a dynamic module built as a member of the workspace.  This
 cargo build
 cargo run
 ```
+
+Sample output
+===
+
+Linux:
+```
+cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 0.01s                                                                                                
+     Running `target/debug/dynamic_module_segfault`
+spawn 100 threads for 10000 iteractions
+.init
+.fini
+.init
+Segmentation fault (core dumped)
+```
