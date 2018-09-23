@@ -27,5 +27,5 @@ pub static DESTRUCTOR: extern fn() = fini;
 
 #[no_mangle]
 pub extern "C" fn entrypoint() {
-    println!("noop");
+    //println!("noop");
 }

@@ -8,6 +8,7 @@ The purpose of this repo is to show two things
   -  On Linux init is called at least once on start and at least once on test ext but also sporatically
     during test execution
 2. Segmentation fault when running on Linux
+  - Note: segmentation fault does not occur 100% of the time
  
 Building and running
 ===

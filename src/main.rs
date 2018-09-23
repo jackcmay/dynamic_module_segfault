@@ -43,7 +43,7 @@ const ENTRYPOINT: &str = "entrypoint";
 type Entrypoint = unsafe extern "C" fn();
 
 fn main() {
-    let num_threads = 1;
+    let num_threads = 100;
     let num_iters = 10000;
     println!(
         "spawn {} threads for {} iteractions",
